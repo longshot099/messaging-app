@@ -1,0 +1,45 @@
+
+#chat-display{
+    height: 400px;
+    overflow: auto;
+    background: #f9f9f9;
+    border-style:solid;
+    border-color:black;
+    
+    margin:10% 10% 0 10%;
+}
+#send-btn{
+    font-size:30px;
+    margin-top:1%;
+    padding:2%;
+    border-radius:10%;
+}
+#clear{
+    font-size:30px;
+    padding:2% 5% 2% 5%;
+}
+
+input{
+    padding: 10px 0px 10px 10px;
+    box-sizing: border-box;
+    background: #eee;
+    border: 0;
+    display: block;
+    width: 50%;
+    background: #fff;
+    border-bottom: 5px solid #eee;
+    font-size: 16px;
+    margin-left:10%;
+}
+.btn{
+    text-align: center;
+}
+#feedback p{
+    color: #aaa;
+    padding: 14px 0px;
+    margin: 0 20px;
+}
+#output{
+    margin-left:2%;
+}
+
