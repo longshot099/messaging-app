@@ -7,7 +7,7 @@ let app = express();
 
 app.use(express.static('static')); // allows all the html/css and js files to be connected to the back end server
 
-let server = app.listen(3000);
+let server = app.listen(3500);
 let backSocket = socket(server);
 
 mongo.connect('mongodb://127.0.0.1:27017/chat',function(err,db){
@@ -21,7 +21,7 @@ mongo.connect('mongodb://127.0.0.1:27017/chat',function(err,db){
         if(err) throw err;
         
         else{
-          socket.emit('output',result); // automattically load messages for corresponding user
+          socket.emit('output',result); // automatically load messages for corresponding user
         }
       })
       socket.on('message',function(data){

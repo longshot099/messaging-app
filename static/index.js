@@ -1,5 +1,5 @@
 // -------------------front end---------------------------
-let frontSocket = io.connect('http://localhost:3000');
+let frontSocket = io.connect('http://localhost:3500');
 
 
 let nameRef  = document.getElementById('name')
